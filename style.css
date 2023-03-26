@@ -34,6 +34,10 @@ body {
   -webkit-mask-image: radial-gradient(
     circle at right , transparent 10px,#fff 11px
   );
+  max-height: 90%;
+  overflow-y: auto;
+  overflow-x: hidden;
+
 }
 
 .popup-container {
