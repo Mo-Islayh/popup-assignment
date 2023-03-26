@@ -30,6 +30,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  border-radius: 15px;
   transform: translate(-50%, -50%) scale(0);
   transition: all 0.5s linear;
   -webkit-mask-image: radial-gradient(
@@ -43,7 +44,6 @@ body {
 
 .popup-container {
   background: white;
-  border-radius: 15px;
   max-width: 400px;
   display: flex;
   justify-content: center;
