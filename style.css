@@ -30,7 +30,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0);
+  transition: all 0.5s linear;
   -webkit-mask-image: radial-gradient(
     circle at right , transparent 10px,#fff 11px
   );
